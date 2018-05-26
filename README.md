@@ -33,4 +33,5 @@ https://github.com/openthread/openthread/tree/master/examples/platforms/samr21#r
 https://github.com/RIOT-OS/RIOT/tree/master/tests/openthread
 
 ### SAMR21
-Gets in Leader state but cc2650 with orginal openthread can't connect.
+~~Gets in Leader state but cc2650 with orginal openthread can't connect.~~
+befor starting openthread you must change the channel to the same number
