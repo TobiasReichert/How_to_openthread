@@ -13,6 +13,7 @@ https://github.com/openthread/openthread/tree/master/examples/platforms/cc2650
 Flash with Uniflash: 
 http://www.ti.com/tool/UNIFLASH
 
+
 ## SAMR21
 Can be a leader too.
 
@@ -23,6 +24,13 @@ https://github.com/openthread/openthread/tree/master/examples/platforms/samr21#f
 
 Port:
 EDBG USB
+
+COAP:
+```bash
+make -f examples/Makefile-samr21 clean
+make -f examples/Makefile-samr21 COMMISSIONER=1 COAP=1 JOINER=1 DHCP6_CLIENT=1 DHCP6_SERVER=1
+```
+https://github.com/openthread/openthread/issues/2717
 
 ## Setup a Network
 https://codelabs.developers.google.com/codelabs/openthread-simulation/#3
