@@ -40,6 +40,10 @@ https://github.com/openthread/openthread/tree/master/examples/platforms/samr21#r
 ## RIOT
 https://github.com/RIOT-OS/RIOT/tree/master/tests/openthread
 
+fatal error: libudev.h: No such file or directory
+```bash
+sudo apt-get install libudev-dev
+```
 ### SAMR21
 ~~Gets in Leader state but cc2650 with orginal openthread can't connect.~~
 befor starting openthread you must change the channel to the same number
